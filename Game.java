@@ -7,7 +7,6 @@ public class Game {
         this.sph = sph;
     }
 
-    // -------------------- SINGLE PLAYER --------------------
     public void singlePlayer(Scanner sc) {
         System.out.println("=== SINGLE PLAYER ===");
         System.out.print("Enter your name: ");
@@ -41,7 +40,7 @@ public class Game {
         System.out.println("Game Over!");
     }
 
-    // -------------------- MULTIPLAYER --------------------
+
     public void multiplayer(Scanner sc) {
         System.out.println("=== MULTIPLAYER ===");
         System.out.print("Enter Player 1 name: ");
@@ -127,7 +126,7 @@ public class Game {
         }
     }
 
-    // -------------------- PROCESS SCORES --------------------
+
     private int processStatsLine(String[] parts) {
         int totalScore = 0;
         try {
@@ -154,3 +153,4 @@ public class Game {
         return totalScore;
     }
 }
+
